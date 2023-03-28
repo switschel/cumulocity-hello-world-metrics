@@ -1,0 +1,19 @@
+{
+    "apiVersion": "2",
+    "version": "1.0.5",
+    "provider": {
+        "name": "Cumulocity"
+    },
+    "isolation": "PER_TENANT",
+    "requiredRoles": [
+        "ROLE_IDENTITY_ADMIN",
+        "ROLE_IDENTITY_READ",
+        "ROLE_INVENTORY_ADMIN",
+        "ROLE_INVENTORY_CREATE",
+        "ROLE_INVENTORY_READ",
+        "ROLE_MEASUREMENT_ADMIN",
+        "ROLE_MEASUREMENT_READ"
+    ],
+    "roles": [
+    ]
+}
