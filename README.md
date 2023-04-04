@@ -27,4 +27,5 @@ zip hello-world-metrics.zip image.tar cumulocity.json
 After successful installation the following endpoints will be exposed:
 
 `https://{yourC8YTenantURL}/service/hello-world-metrics/prometheus` - Used for prometheus to collect metrics for this microservice
+
 `https://{yourC8YTenantURL}/service/hello-world-metric` - Simulating a device creation and custom metric
